@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="140.73" viewBox="0 0 150 140.73">
+  <defs>
+    <clipPath id="clip-Logo">
+      <rect width="150" height="140.73"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" clip-path="url(#clip-Logo)">
+    <path id="Maple_Leaf" data-name="Maple Leaf" d="M70.9,477.727V443.774h-1.03L21.453,455.785,34.579,440.53,0,391.32l49.613,10.175L73.5,337l24.9,64.9L150,391.32l-35.353,50.312,12.178,14.153L78.406,443.774H76.894v33.953Z" transform="translate(0 -337)" fill="#1c1c1c"/>
+  </g>
+</svg>

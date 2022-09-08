@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <link rel="stylesheet" type="text/css" href="constants.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 1005px)" href="wide.css">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 1005px)" href="thin.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+  <script src="myScript.js"></script>
+
+  <!-- Description of the site, right here -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Welcome to Maple Leaf Equestrian, we are a friendly and welcoming barn where you can learn how to ride and take care of horses.">
+  <meta name="keywords" content="horse, horseback, riding, barn, equestrian, learn, lesson">
+  <meta name="author" content="Maija Philip">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maple Leaf Equestrian</title>
+</head>
+<body>
+  <!-- Every element on the website is here -->
+
+  <!-- Hamburger Menu Button -->
+  <div class="hamburgerMenuButton" onclick="toggleNav()"></div>
+
+  <!-- Window with all the navigation links for mobile -->
+  <nav class="small">
+    <!-- x button in the corner -->
+    <p onclick="toggleNav()" id="close">x</p>
+
+    <!-- Navigation links -->
+    <div id="links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="lessons.html">lessons</a>
+      <a href="camp.html">camp</a>
+      <a href="horses.html">our horses</a>
+      <a href="about.html#contactInfo">contact us</a>
+    </div>
+  </nav>
+
+  <!-- Window with all the navigation links for web -->
+  <nav class="big">
+    <a href="home.html"><div class="logoSmall"></div></a>  <!-- Home Link -->
+
+    <!-- Navigation links -->
+    <div id="links">
+      <a href="about.html">About Us</a>
+      <a href="lessons.html">lessons</a>
+      <a href="camp.html">camp</a>
+      <a href="horses.html">our horses</a>
+    </div>
+
+    <a href="about.html#contactInfo"><div class="contactBtn"></div></a>  <!-- Contact Link -->
+  </nav>
+
+
+
+
+  <!-- First header bloc with Malibu -->
+  <header>
+    <!-- Image of Malibu -->
+    <div class="mainImg" id="nose">
+      <!-- <div class="nameTag">Malibu</div> -->
+    </div>
+
+    <div class="HeaderText">
+      <div class="logoBig"></div>  <!-- Only for Mobile (the logo) -->
+      <!-- Title -->
+      <h1>Maple Leaf Equestrian</h1>
+      <!-- Small opening text -->
+      <p>An amazing place to learn horsemanship and ride no matter how much previous experience. We'd love to help you further your riding skills or get you started riding horses for the first time!</p>
+      <a href="about.html#contactInfo"><button>Contact Us</button></a>
+    </div>
+
+    <!-- Cue to scroll -->
+    <div class="scrollCue"></div>
+  </header>
+
+  <!-- Second bloc: Lessons and Camp with Hadji -->
+  <div class="wrap">
+    <div class="HeaderText">
+      <!-- Title -->
+      <h1>Who are we?</h1>
+      <!-- Paragraph -->
+      <p>
+        Welcome to Maple Leaf Equestrian, we are a small barn out of Pagemill Pastures. Every member of our team loves horses and will work to help you achieve your goals. Wether those goals are to trot for the first time or successfully complete a full course, we guarantee you’ll be able to accomplish them in a safe, friendly and fun environment.
+      </p>
+      <a href="about.html#contactInfo"><button>Contact Us</button></a>
+    </div>
+
+    <!-- Image of Hadji -->
+    <div class="mainImg" id="hadji1">
+      <!--<div class="nameTag nT2">Hadji</div>-->
+    </div>
+
+  </div>
+
+  <!-- Third bloc: Contact with Jazzi -->
+  <div class="wrap2">
+    <!-- Image of Jazzi -->
+    <div class="mainImg" id="jazzy1">
+      <!--<div class="nameTag">Jasmine</div>-->
+    </div>
+
+    <div class="HeaderText hT2">
+      <!-- Title -->
+      <h1>Lessons and Camp</h1>
+      <!-- Paragraph -->
+      <p>
+        Here at Maple Leaf Equestrian, we offer adult and child horseback riding lessons. Each lesson includes horsemanship, like getting the horse ready for riding, as well as on the horse instruction. Everyone is welcome for lessons and it’s a great way to get active. It’s also shown to be super helpful for people with disabilities, learning to connect with an animal and building confidence.
+      </p>
+      <a href="about.html#contactInfo"><button>Contact Us</button></a>
+    </div>
+  </div>
+
+  <!-- Fourth bloc: Paco -->
+  <div class="wrap">
+    <div class="HeaderText">
+      <!-- Title -->
+      <h1>Contact</h1>
+      <!-- Contact Info -->
+      <p class="contact">
+        Hi, I’m Robin Elsineitti<br> <!-- Name -->
+        (650) 207 - 4691<br> <!-- Phone Number -->
+        <a href="mailto:elsineittirobin@gmail.com">elsineittirobin@gmail.com</a><br> <!-- Email and Email Link -->
+        <a href="https://www.google.com/maps/place/3450+Deer+Creek+Rd,+Palo+Alto,+CA+94304/@37.3966498,-122.1575217,17z/data=!4m5!3m4!1s0x808fbaa04ab0bd2d:0x3931deaf399100c5!8m2!3d37.3965987!4d-122.1533911" target="_blank">3450 Deer Creek Road, Palo Alto</a> <!-- Address and Google Maps Link -->
+      </p>
+      <a href="mailto:elsineittirobin@gmail.com"><button>Email Us</button></a>
+      <br>  <!-- Email Button -->
+      <a href="https://www.google.com/maps/place/3450+Deer+Creek+Rd,+Palo+Alto,+CA+94304/@37.3966498,-122.1575217,17z/data=!4m5!3m4!1s0x808fbaa04ab0bd2d:0x3931deaf399100c5!8m2!3d37.3965987!4d-122.1533911"  target="_blank"><button class="btn2">Find on Google Maps</button></a> <!-- Google Maps Button -->
+    </div>
+
+    <!-- Image of Paco -->
+    <div class="mainImg" id="paco1">
+    </div>
+
+  </div>
+
+
+
+  <footer>
+    <!-- Name -->
+    <p>Maple Leaf Equestrian</p>
+    <!-- Phone Number -->
+    <p>(650) 207 - 4691<br>
+      <a href="mailto:elsineittirobin@gmail.com">elsineittirobin@gmail.com</a><br> <!-- Email and Email Link -->
+      <a href="https://www.google.com/maps/place/3450+Deer+Creek+Rd,+Palo+Alto,+CA+94304/@37.3966498,-122.1575217,17z/data=!4m5!3m4!1s0x808fbaa04ab0bd2d:0x3931deaf399100c5!8m2!3d37.3965987!4d-122.1533911" target="_blank">3450 Deer Creek Road, Palo Alto</a> <!-- Address and Google Maps Link -->
+    </p>
+    <p>Made by <a href="https://maija.xyz/">Maija Philip</a></p>
+  </footer>
+
+</body>
+
+<!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Maple Leaf Equestrian",
+  "image" : "https://mapleleafeq.com/jazzy.jpg",
+  "telephone" : "(650) 207 - 4691",
+  "email" : "elsineittirobin@gmail.com",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "3450 Deer Creek Road",
+    "addressLocality" : "Palo Alto",
+    "addressRegion" : "California",
+    "addressCountry" : "United States",
+    "postalCode" : "94304"
+  },
+  "openingHoursSpecification" : {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "All Days"
+    }
+  },
+  "url" : "http://mapleleafeq.com/",
+  "review" : {
+    "@type" : "Review",
+    "author" : {
+      "@type" : "Person",
+      "name" : "Maija Philip"
+    },
+    "datePublished" : "2019-07-01",
+    "reviewRating" : {
+      "@type" : "Rating",
+      "ratingValue" : "5/5"
+    },
+    "reviewBody" : "Maple Leaf Equestrian is an amazing place to ride. The horses are wonderfully taken care of and the instructor, Robin Elsineitti is very nice and amazing. The times are super flexible and it's a great place to ride."
+  }
+}
+</script>
+</html>

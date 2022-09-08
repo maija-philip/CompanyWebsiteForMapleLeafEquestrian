@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <link rel="stylesheet" type="text/css" href="constants.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 1005px)" href="wide.css">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 1005px)" href="thin.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+  <script src="myScript.js"></script>
+
+  <!-- Description of the site, right here -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Welcome to Maple Leaf Equestrian, come see all the wonderful horses you could ride when you come here.">
+  <meta name="keywords" content="horse, horseback, riding, barn, equestrian, learn, lesson">
+  <meta name="author" content="Maija Philip">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Our Horses | Maple Leaf Equestrian</title>
+</head>
+<body>
+  <!-- Every element on the website is here -->
+
+  <!-- Hamburger Menu Button -->
+  <div class="hamburgerMenuButton" onclick="toggleNav()"></div>
+
+  <!-- Window with all the navigation links for mobile -->
+  <nav class="small">
+    <!-- x button in the corner -->
+    <p onclick="toggleNav()" id="close">x</p>
+
+    <!-- Navigation links -->
+    <div id="links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="lessons.html">lessons</a>
+      <a href="camp.html">camp</a>
+      <a href="horses.html">our horses</a>
+      <a href="about.html#contactInfo" onclick="toggleNav()">contact us</a>
+    </div>
+  </nav>
+
+  <!-- Window with all the navigation links for web -->
+  <nav class="big">
+    <a href="home.html"><div class="logoSmall"></div></a>  <!-- Home Link -->
+
+    <!-- Navigation links -->
+    <div id="links">
+      <a href="about.html">About Us</a>
+      <a href="lessons.html">lessons</a>
+      <a href="camp.html">camp</a>
+      <a href="horses.html">our horses</a>
+    </div>
+
+    <a href="about.html#contactInfo"><div class="contactBtn"></div></a>  <!-- Contact Link -->
+  </nav>
+
+
+
+
+  <!-- First header bloc with Some Img -->
+  <header>
+    <!-- Image of Something -->
+    <div class="mainImg" id="malibuGraze">
+      <!--<div class="nameTag">Something</div>-->
+    </div>
+
+    <div class="HeaderText">
+      <!-- Title -->
+      <h1>Our Horses</h1>
+      <!-- Small opening text -->
+      <p>
+We’d like to introduce you to all of our horses. They are all rescue horses that we’ve rehabbed to make great lesson horses
+      </p>
+    </div>
+
+    <!-- Cue to scroll -->
+    <div class="scrollCue"></div>
+  </header>
+
+  <!-- Malibu Bloc -->
+  <div class="wrapHalf">
+    <div class="HeaderText">
+      <!-- Title -->
+      <h1>Malibu</h1>
+      <!-- Paragraph -->
+      <p>
+        Malibu is up for anything. She’ll teach you a lot each time you ride her. Her three most favorite things in life are rolling, carrots, and grass. She’s definitely got a wonderful personality and would love to meet you.
+      </p>
+    </div>
+
+    <!-- Image of Malibu -->
+    <div class="mainImg" id="malibu"></div>
+  </div>
+
+  <!-- Jazzy Bloc -->
+  <div class="wrapHalf2">
+    <!-- Image of Jasmine -->
+    <div class="mainImg" id="jazzy2"></div>
+
+    <div class="HeaderText">
+      <!-- Title -->
+      <h1>Jasmine</h1>
+      <!-- Paragraph -->
+      <p>
+        Jasmine’s the newest member of our family, she was originally owned by a girl with cerebral palsy who absolutely adored her. They had an amazing connection and were able to do so much. She’s now part of our lesson program and everyone loves her so much!
+      </p>
+    </div>
+  </div>
+
+
+  <footer>
+    <!-- Name -->
+    <p>Maple Leaf Equestrian</p>
+    <!-- Phone Number -->
+    <p>(650) 207 - 4691<br>
+      <a href="mailto:elsineittirobin@gmail.com">elsineittirobin@gmail.com</a><br> <!-- Email and Email Link -->
+      <a href="https://www.google.com/maps/place/3450+Deer+Creek+Rd,+Palo+Alto,+CA+94304/@37.3966498,-122.1575217,17z/data=!4m5!3m4!1s0x808fbaa04ab0bd2d:0x3931deaf399100c5!8m2!3d37.3965987!4d-122.1533911" target="_blank">3450 Deer Creek Road, Palo Alto</a> <!-- Address and Google Maps Link -->
+    </p>
+    <p>Made by <a href="https://maija.xyz/">Maija Philip</a></p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <link rel="stylesheet" type="text/css" href="constants.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 1005px)" href="wide.css">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 1005px)" href="thin.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+  <script src="myScript.js"></script>
+
+  <!-- Description of the site, right here -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Welcome to Maple Leaf Equestrian, we are a friendly and welcoming barn where you can learn how to ride and take care of horses.">
+  <meta name="keywords" content="horse, horseback, riding, barn, equestrian, learn, lesson">
+  <meta name="author" content="Maija Philip">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Lessons | Maple Leaf Equestrian</title>
+</head>
+<body>
+  <!-- Every element on the website is here -->
+
+  <!-- Hamburger Menu Button -->
+  <div class="hamburgerMenuButton" onclick="toggleNav()"></div>
+
+  <!-- Window with all the navigation links for mobile -->
+  <nav class="small">
+    <!-- x button in the corner -->
+    <p onclick="toggleNav()" id="close">x</p>
+
+    <!-- Navigation links -->
+    <div id="links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="lessons.html">lessons</a>
+      <a href="camp.html">camp</a>
+      <a href="horses.html">our horses</a>
+      <a href="about.html#contactInfo">contact us</a>
+    </div>
+  </nav>
+
+  <!-- Window with all the navigation links for web -->
+  <nav class="big">
+    <a href="home.html"><div class="logoSmall"></div></a>  <!-- Home Link -->
+
+    <!-- Navigation links -->
+    <div id="links">
+      <a href="about.html">About Us</a>
+      <a href="lessons.html">lessons</a>
+      <a href="camp.html">camp</a>
+      <a href="horses.html">our horses</a>
+    </div>
+
+    <a href="about.html#contactInfo"><div class="contactBtn"></div></a>  <!-- Contact Link -->
+  </nav>
+
+
+
+
+  <!-- First header bloc with Some Img -->
+  <header>
+    <!-- Image of Something -->
+    <div class="mainImg" id="jazzy3"></div>
+
+    <div class="HeaderText">
+      <!-- Title -->
+      <h1>Lessons</h1>
+      <!-- Small opening text -->
+      <p>
+        We offer lessons for children and adults. In our lessons, we teach how to care for a horse as well as how to ride. And we welcome everyone.
+      </p>
+      <a href="about.html#contactInfo"><button>Contact Us</button></a>
+    </div>
+
+    <!-- Cue to scroll -->
+    <div class="scrollCue"></div>
+  </header>
+
+  <!-- Second bloc: Lessons and Camp with Some Img -->
+  <div class="wrap">
+    <div class="HeaderText">
+      <!-- Title -->
+      <h1>Info about our Lessons</h1>
+      <!-- Paragraph -->
+      <p>
+        Our lessons are 30 minutes for private lessons, and can go up to an hour for group lessons. Semi-private lessons are usually somewhere in the middle of that timeframe. We also teach how to get the horse ready and care after riding.
+      </p>
+    </div>
+
+    <!-- Image of Something -->
+    <div class="mainImg" id="arena"></div>
+  </div>
+
+  <!-- Third bloc: Leasing -->
+  <div class="wrap2">
+    <!-- Image of Something -->
+    <div class="mainImg" id="paco3"></div>
+
+    <div class="HeaderText">
+      <!-- Title -->
+      <h1>Leasing a Pony</h1>
+      <!-- Paragraph -->
+      <p>
+        We offer a half leases on each horse. A lease is when you pay to ride just one specific horse of your choice. This way you can focus on getting better at a specific talent and develop a connection to the horse. Contact us for more information about leasing.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <!-- Name -->
+    <p>Maple Leaf Equestrian</p>
+    <!-- Phone Number -->
+    <p>(650) 207 - 4691<br>
+      <a href="mailto:elsineittirobin@gmail.com">elsineittirobin@gmail.com</a><br> <!-- Email and Email Link -->
+      <a href="https://www.google.com/maps/place/3450+Deer+Creek+Rd,+Palo+Alto,+CA+94304/@37.3966498,-122.1575217,17z/data=!4m5!3m4!1s0x808fbaa04ab0bd2d:0x3931deaf399100c5!8m2!3d37.3965987!4d-122.1533911" target="_blank">3450 Deer Creek Road, Palo Alto</a> <!-- Address and Google Maps Link -->
+    </p>
+    <p>Made by <a href="https://maija.xyz/">Maija Philip</a></p>
+  </footer>
+
+</body>
+</html>

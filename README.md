@@ -1,6 +1,6 @@
 # CompanyWebsiteForMapleLeafEquestrian
-Maija Philip
-June 2019
+Maija Philip | June 2019
+
 Freelance Web Developer and Designer For Maple Leaf Equestrian
 
 
